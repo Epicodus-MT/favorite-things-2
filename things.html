@@ -2,15 +2,27 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Favorite Things</title>
   </head>
   <body>
     <form action="index.html" method="post">
-        <input type="text" name="thing1" value="">
-        <input type="text" name="thing2" value="">
-        <input type="text" name="thing3" value="">
-        <input type="button" name="submit" value="Submit">
+      <label for="place">Favorite place</label>
+      <input id="place" type="text" name="place" value="">
+
+      <label for="food">Favorite food</label>
+      <input id="food" type="text" name="food" value="">
+
+      <label for="actor">Favorite actor</label>
+      <input id="actor" type="text" name="actor" value="">
+
+      <input id="submitButton" type="button" name="submit" value="Submit">
+
     </form>
+
+
+
 
   </body>
 </html>

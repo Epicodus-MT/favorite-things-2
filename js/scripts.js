@@ -24,5 +24,11 @@ $(function(){
     var new_array = [];
     new_array.push(favoriteThings[0], favoriteThings[1], favoriteThings[2]);
     console.log(new_array);
+
+    //create a list on the page
+    $('#results').append("<ul><li>" + favoriteThings[0] + "</li><li>"  + favoriteThings[1] + "</li><li>" + favoriteThings[2] + "</li></ul>");
+
   });
+
+
 });
